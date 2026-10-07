@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+    line-height: 1.7;
+    color: #14213d;
+    background-color: #f2f5fb;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 4px solid #f2c230;
+    padding: 16px 24px;
+}
+
+h1 {
+    margin: 0 0 8px;
+}
+
+nav a {
+    margin-right: 16px;
+    color: #2b59c3;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+article {
+    background-color: #ffffff;
+    border: 1px solid #d5dcec;
+    border-radius: 10px;
+    padding: 12px 18px;
+    margin-bottom: 12px;
+}
+
+footer {
+    text-align: center;
+    color: #56607a;
+    padding: 24px;
+}
+
+/* 버튼 */
+button {
+    background-color: #f2c230;
+    color: #14213d;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font: inherit;
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(1.15);
+}
+
+/* 희귀도 */
+#rarityButtons {
+    list-style: none;
+    padding: 0;
+}
+
+#rarityButtons li {
+    margin-bottom: 8px;
+}
+
+#rarityButtons button {
+    width: 80px;
+}
+
+#rarityInfo {
+    background-color: #ffffff;
+    border-left: 6px solid #f2c230;
+    padding: 12px 16px;
+}
+
+/* 시세 정보 표 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+th, td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #d5dcec;
+    text-align: left;
+}
+
+th {
+    background-color: #14213d;
+    color: #ffffff;
+}
+
+/* 체크리스트 */
+#checkList {
+    list-style: none;
+    padding: 0;
+}
+
+#checkList li {
+    margin-bottom: 6px;
+}
+
+/* 시세 메모장 */
+input {
+    padding: 8px 10px;
+    border: 1px solid #d5dcec;
+    border-radius: 8px;
+    font: inherit;
+}
+
+#memoList li {
+    margin-top: 6px;
+}
